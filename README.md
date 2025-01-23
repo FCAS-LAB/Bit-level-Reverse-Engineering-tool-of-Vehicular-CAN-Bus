@@ -1,8 +1,10 @@
 # Bit-level-Reverse-Engineering-tool-of-Vehicular-CAN-Bus
-### 项目简介
-本项目旨在解决第三方在没有DBC文件且不了解协议的情况下，对CAN总线进行逆向工程以实现安全检测的挑战。由于现有方法难以在巨大的搜索空间中找到精确控制汽车动作的位，因此无法有效用于逆向工程和车内网络分析。为此，我们提出了一种高效算法，显著降低了搜索空间的复杂性，并将其成功应用于Raspberry Pi系统。部分源代码已开源，供开发者使用和参考。<br><br>
-本项目的主要贡献包括：<br>
-* 提出了一种高效算法，显著降低了寻找控制位的搜索空间复杂性。<br>
-* 在Raspberry Pi系统上实现了该算法，部分源代码已开源。<br>
-* 实现了CAN信号与汽车控制操作的精确映射，提升了安全检测能力。<br>
-* 提供了一种针对唯一ID和有效载荷组合的高效逆向工程解决方案，助力汽车网络安全。<br>
+
+### Project Overview
+This project aims to address the challenge of reverse engineering CAN bus for security purposes, especially when a third part lacks a DBC file and is unaware of the protocol. Traditional methods fail to identify the exact bits controlling specific actions due to the vast search space, making them unsuitable for reverse engineering and analysis of in-vehicle networks. To overcome this, we propose an efficient algorithm that significantly reduces the complexity of the search space. This algorithm has been successfully implemented on a Raspberry Pi system, with part of the source code released for public use.<br><br>
+Our key contributions include:<br>
+* An efficient algorithm that significantly reduces the complexity of searching for control bits.<br>
+* Implementation of the algorithm on a Raspberry Pi system, with partial source code available for developers.<br>
+* Precise mapping of CAN signals to vehicle control actions, enhancing security detection capabilities.<br>
+* Provides an efficient and robust reverse engineering solution for unique ID and payload combinations, enabling better security analysis for in-vehicle networks.<br>
+
